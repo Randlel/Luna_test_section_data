@@ -1,7 +1,7 @@
 ## Luna Test Section Data Management Plan
 
 ### Data Description
- #### Measurement Types:
+#### Measurement Types:
  + Point Temperature Measurements from Thermocouples (A numeric value of temperature over time per thermocouple)
  + Mass Flow Rate from a Coriolis Flow Meter (A numeric value of mass flow rate over time)
  + Pressure from a Pressure Transducer (A numeric value of pressure over time)
@@ -12,7 +12,7 @@ The point temperatures, mass flow rate, and pressure measurements are received b
 
 
 ### Roles and Responsibilities
-#### Task (Responsible Party):
+Task (Responsible Party):
  + Creation of Safety Procedures (Grad Student and PI)
  + Implementation of Safety Procedures (Grad Student)
  + Enforcement of Safety Procedures (PI)
