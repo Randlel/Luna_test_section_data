@@ -1,37 +1,31 @@
-## Welcome to GitHub Pages
+## Luna Test Section Data Management Plan
 
-You can use the [editor on GitHub](https://github.com/Randlel/Luna_test_section_data/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+### Data Description
+Measurement Types:
+ + Point Temperature Measurements from Thermocouples (A numeric value of temperature over time per thermocouple)
+ + Mass Flow Rate from a Coriolis Flow Meter (A numeric value of mass flow rate over time)
+ + Pressure from a Pressure Transducer (A numeric value of pressure over time)
+ + Power Applied to the Heated Area which is hand recorded from the Power Supply (A single set point for voltage and amperage (does not change with time))
+ + 1D Temperature Array at test section wall (several thousand data point) from a Luna Fiber Optic Thermal Imaging System (An 1D array of temperature measurements over time) 
+ 
+The point temperatures, mass flow rate, and pressure measurements are received by a DAQ. The data is then read into the computer by a software called LabView which records the data and saves it as an excel file. The power input is recorded by the experimentalist in a .txt file for each experiment. The Fiber Optic imaging will occur using a LUNA sensor. This sensor comes with software designed to read the signals from the fiber. The data is then saved as a .csv file. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### Roles and Responsibilities
+Task (Responsible Party):
+ + Creation of Safety Procedures (Grad Student and PI)
+ + Implementation of Safety Procedures (Grad Student)
+ + Enforcement of Safety Procedures (PI)
+ + Equipment/Instrumentation Maintenance and Calibration (Grad Student)
+ + Data Collection (Grad Student)
+ + Data Organization and Backup Creation (Grad Student)
+ + Metadata Generation (Grad Student)
+ + Data Analysis  (Grad Student)
+ + Data Analysis Software Creation and Maintenance (Grad Student)
+ + Quality Control and Data Verification (Grad Student and PI)
+ + Back up Drive Maintenance (PI)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Randlel/Luna_test_section_data/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### Data Standards and Metadata
+### Storage and Security
+### Access and Data Sharing
+### Archiving and Preservation
