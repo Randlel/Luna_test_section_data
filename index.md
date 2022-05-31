@@ -38,10 +38,8 @@ Because this project is fairly independent there is no backup if either the PI o
 
 ### Data Standards and Metadata
 #### Data Naming Conventions and Version Control:
-Folder naming convention: yyyy_mm_dd_ breifDescriptionOfExperiment
-
-Data File Naming: yyyy_mm_dd_heatingMode_voltage_amperage
-
+Folder naming convention: yyyy_mm_dd_ breifDescriptionOfExperiment \
+Data File Naming: yyyy_mm_dd_heatingMode_voltage_amperage \
 New data files are created every time an experiment is run. New files are then created after the analysis tool is run. The files should never be modified only read into the analysis code and a new copy of the processed data is created every time the code is run. 
 There is only one file of raw data per folder (both the file and folder are named using the naming convention). Each time the processing code is run a new file will be created the user should add a meaningful file name to indicate how it was processed. A .txt should also be included in the folder to describe what each iteration of the process files contains. 
 
